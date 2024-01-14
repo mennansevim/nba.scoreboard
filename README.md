@@ -2,7 +2,6 @@
 
 This golang web api simulate and serve statistic data to preview from UI.
 
- 
 ## Endpoints
 
 POST /start -> Begin simulation, creates random teams and players.
@@ -53,9 +52,6 @@ type Statistic struct {
 ```
 
 
-
-Please make sure to update tests as appropriate.
-
 ## How is it work ?
 
 nba.scoreboard api allows you to start the simulation and pull instant data as json.
@@ -66,5 +62,4 @@ When creating each player, the success rate of scoring a basket is randomly give
 In the simulation, the home team and the opposing team play a match, their attacks start randomly, and scorers and assists are selected according to their shooting ability.
 
 All data as TopScorer, MostAssists, AssistCount, ScoreCount and Player Statistics are returned as json.
-
-[MIT](https://choosealicense.com/licenses/mit/)
+ 
